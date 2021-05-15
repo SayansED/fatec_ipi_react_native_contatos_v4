@@ -7,6 +7,7 @@ import contatosReducers from './store/contatos-reducers';
 import { init } from './helpers/db';
 
 init ()
+
 .then(() => {
   console.log("Base criada com sucesso")
 }).catch((err) => {
